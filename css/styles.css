@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
 
+.tela-login, .background-branco{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #def0f7;
     width: 100%;
-
 }
 
 input {
@@ -18,41 +22,34 @@ input::placeholder {
     font-family: Arial, Helvetica, sans-serif;
     color: #A9A9A9;
     font-size: 18px;
-    font-weight: lighter;
+    text-indent: 12px;
 }
 
-#container {
+.tela-login {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
-#formulario {
+.formulario {
     display: flex;
     justify-content: center;
     gap: 60px;
 
 }
 
-form {
+form  {
     display: flex;
     flex-direction: column;
-
-    fieldset {
-        display: flex;
-        flex-direction: column;
-        border: none;
-        gap: 15px;
-
-    }
-
-    label {
-        font-family: Arial, Helvetica, sans-serif;
-
-    }
+    border: none;
+    gap: 15px;
 }
 
+label {
+    font-family: Arial, Helvetica, sans-serif;
 
+}
 button {
     background-color: #1351B4;
     color: white;
@@ -65,8 +62,8 @@ button {
     cursor: pointer;
 }
 
-#background-branco {
-   margin: 0 auto;
+.background-branco {
+
     width: 556px;
     height: 1080px;
     background-color: white;
@@ -78,16 +75,20 @@ button {
 
 }
 
-#texto {
-    color: #939393;
+.texto {
+    color: .939393;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#sigla {
+.sigla{
     color: black;
     font-family: "Jacques Francois", serif;
     font-size: 36px;
 }
+#sigla2{
+    font-family: "Jacques Francois", serif;
+   
+}   
 
 a {
 
@@ -98,36 +99,38 @@ h3 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#acesse-sua-conta {
+.acesse-sua-conta {
     display: flex;
     justify-content: flex-start;
     width: 100%;
 }
 
-#logo-texto-sigla {
+.logo-texto-sigla {
     display: flex;
     flex-wrap: wrap;
     width: 250px;
 }
 
-#cadastre-se {
+.cadastre-se {
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 144.5px;
 }
 
-span {
+.hr {
     width: 396px;
     text-align: center;
+    
 }
 
 hr {
     border: 0.5px solid rgba(0, 0, 0, 0.1);
 }
 
-#acesse-sua-conta {
+.acesse-sua-conta {
     margin-left: 15px;
     font-weight: bold;
 }
-#logo-conta-formulario #logo-texto-sigla{
-        margin-left: 13px;
+
+.logo-conta-formulario .logo-texto-sigla {
+    margin-left: 13px;
 }
